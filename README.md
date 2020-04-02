@@ -4,11 +4,12 @@ This example shows a basic Java Servlet that shows a star list page.
 
 ### To import this example to IntelliJ: 
 0. Make sure you finish all the setup steps in project 1 description.
-1. clone this repository using `git clone https://github.com/UCI-Chenli-teaching/project1-star-example.git`
+1. clone this repository using `git clone https://github.com/UCI-Chenli-teaching/cs122b-spring20-project1-star-example`
 2. Open IntelliJ -> File -> New -> Project from Existing Sources. if this is the first time you open IntelliJ, you can just click "Import Project"
                                           
 3. Unzip the zip file and select the folder in your file system.
-4.Select "Import project from external model" and click "Maven"
+
+4. Select "Import project from external model" and click "Maven"
 
 5.  In "src" folder, open src->(default package)->StarServlet.java. Change the mysql username and password and make sure you have the moviedb database.
 ### To Run this example
