@@ -2,7 +2,7 @@
 
 This example shows a basic Java Servlet that shows a star list page.
 
-### To import this example to Eclipse: 
+### To import this example to IntelliJ: 
 0. Make sure you finish all the setup steps in project 1 description.
 1. clone this repository using `git clone https://github.com/UCI-Chenli-teaching/project1-star-example.git`
 2. Open IntelliJ -> File -> New -> Project from Existing Sources. if this is the first time you open IntelliJ, you can just click "Import Project"
