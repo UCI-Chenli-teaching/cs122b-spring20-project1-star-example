@@ -14,10 +14,6 @@ import java.sql.Statement;
 public class StarServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
-    public StarServlet() {
-        super();
-    }
-
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         // change this to your own mysql username and password
         String loginUser = "mytestuser";
