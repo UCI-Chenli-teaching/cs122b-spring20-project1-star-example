@@ -19,7 +19,7 @@ This example shows a basic Java Servlet that shows a star list page.
 
 #### prepare the database `moviedbexample`
  
-    ```
+```    
     local> mysql -u mytestuser -p
     mysql> CREATE DATABASE IF NOT EXISTS moviedbexample;
     mysql> USE moviedbexample;
@@ -31,8 +31,8 @@ This example shows a basic Java Servlet that shows a star list page.
     
     mysql> INSERT IGNORE INTO stars VALUES('755011', 'Arnold Schwarzeneggar', 1947);
     mysql> INSERT IGNORE INTO stars VALUES('755017', 'Eddie Murphy', 1961);
+```    
     
-    ```
 ### To run this example: 
 1. Clone this repository using `git clone https://github.com/UCI-Chenli-teaching/cs122b-spring20-project1-star-example.git`
 2. Open IntelliJ -> Import Project -> Choose the project you just cloned (The root path must contain the pom.xml!) -> Choose Import project from external model -> choose Maven -> Click on Finish -> The IntelliJ will load automatically
